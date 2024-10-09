@@ -4,7 +4,7 @@
 This project implements a **Serverless Kafka Data Pipeline** using AWS services. It leverages Amazon MSK Serverless for Kafka management, AWS Lambda for data processing, API Gateway for API management, SQS for load balancing, Kinesis Firehose for data batching, and S3 for storage. The pipeline facilitates real-time data streaming from external applications to data warehouses like Snowflake or querying services like Athena using AWS Glue.
 
 ## Architecture Diagram
-![Architecture Diagram](path_to_your_architecture_diagram.png)
+![Architecture Diagram]()
 
 ## Architecture Details
 1. **Data Producers:** External applications (e.g., mobile devices) send data via POST requests to an API managed by API Gateway.
@@ -84,6 +84,8 @@ This project implements a **Serverless Kafka Data Pipeline** using AWS services.
 
 3. **Security Best Practices:**
    - Deploy MSK brokers in private subnets to enhance security.
+  
+![](https://github.com/vighneshbuddhivant/Real-Time-Serverless-Kafka-Data-Pipeline-on-AWS/blob/14747f7dd1103f33a2f05195a2dafdf5e4a5a21b/msk-cluster.png) 
 
 ### 6. Create Lambda Functions
 
