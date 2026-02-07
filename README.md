@@ -1,6 +1,6 @@
 # Real Time Serverless Kafka Data Pipeline on AWS Cloud
 
-## Project Overview
+## Project Overview 
 This project implements a **Serverless Kafka Data Pipeline** using AWS services. It leverages Amazon MSK Serverless for Kafka management, AWS Lambda for data processing, API Gateway for API management, SQS for load balancing, Kinesis Firehose for data batching, and S3 for storage. The pipeline facilitates real-time data streaming from external applications to data warehouses like Snowflake or querying services like Athena using AWS Glue.
 
 ## Architecture Diagram
